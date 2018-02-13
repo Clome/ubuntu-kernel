@@ -52,6 +52,12 @@ enum ocxlflash_ctx_state {
 	STARTED
 };
 
+enum ocxlflash_ctx_state {
+	CLOSED,
+	OPENED,
+	STARTED
+};
+
 struct ocxlflash_context {
 	struct ocxl_hw_afu *hw_afu;	/* HW AFU back pointer */
 	struct address_space *mapping;	/* Mapping for pseudo filesystem */
