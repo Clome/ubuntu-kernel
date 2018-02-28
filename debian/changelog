@@ -1,3 +1,9 @@
+linux-signed (4.16.0-1.2) bionic; urgency=medium
+
+  * Master version: 4.16.0-1.2
+
+ -- Seth Forshee <seth.forshee@canonical.com>  Wed, 28 Feb 2018 11:51:38 -0600
+
 linux-signed (4.16.0-0.1) bionic; urgency=medium
 
   * Master version: 4.16.0-0.1
