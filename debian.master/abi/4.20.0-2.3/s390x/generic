@@ -503,6 +503,8 @@ EXPORT_SYMBOL drivers/net/ethernet/mellanox/mlxsw/mlxsw_core 0x00000000	mlxsw_co
 EXPORT_SYMBOL drivers/net/ethernet/mellanox/mlxsw/mlxsw_core 0x00000000	mlxsw_core_event_listener_register
 EXPORT_SYMBOL drivers/net/ethernet/mellanox/mlxsw/mlxsw_core 0x00000000	mlxsw_core_event_listener_unregister
 EXPORT_SYMBOL drivers/net/ethernet/mellanox/mlxsw/mlxsw_core 0x00000000	mlxsw_core_flush_owq
+EXPORT_SYMBOL drivers/net/ethernet/mellanox/mlxsw/mlxsw_core 0x00000000	mlxsw_core_fw_flash_end
+EXPORT_SYMBOL drivers/net/ethernet/mellanox/mlxsw/mlxsw_core 0x00000000	mlxsw_core_fw_flash_start
 EXPORT_SYMBOL drivers/net/ethernet/mellanox/mlxsw/mlxsw_core 0x00000000	mlxsw_core_kvd_sizes_get
 EXPORT_SYMBOL drivers/net/ethernet/mellanox/mlxsw/mlxsw_core 0x00000000	mlxsw_core_lag_mapping_clear
 EXPORT_SYMBOL drivers/net/ethernet/mellanox/mlxsw/mlxsw_core 0x00000000	mlxsw_core_lag_mapping_get
@@ -5707,6 +5709,7 @@ EXPORT_SYMBOL vmlinux 0x00000000	xfrm_state_check_expire
 EXPORT_SYMBOL vmlinux 0x00000000	xfrm_state_delete
 EXPORT_SYMBOL vmlinux 0x00000000	xfrm_state_delete_tunnel
 EXPORT_SYMBOL vmlinux 0x00000000	xfrm_state_flush
+EXPORT_SYMBOL vmlinux 0x00000000	xfrm_state_free
 EXPORT_SYMBOL vmlinux 0x00000000	xfrm_state_insert
 EXPORT_SYMBOL vmlinux 0x00000000	xfrm_state_lookup
 EXPORT_SYMBOL vmlinux 0x00000000	xfrm_state_lookup_byaddr
