@@ -4,9 +4,9 @@
 CFLAGS =  -Wall -Wl,--no-as-needed -O2 -g
 CFLAGS += -I../../../../usr/include/
 
-TEST_PROGS := run_netsocktests run_afpackettests test_bpf.sh netdevice.sh rtnetlink.sh
+TEST_PROGS := run_netsocktests run_afpackettests netdevice.sh rtnetlink.sh
 TEST_PROGS += fib_tests.sh fib-onlink-tests.sh pmtu.sh udpgso.sh ip_defrag.sh
-TEST_PROGS += udpgso_bench.sh fib_rule_tests.sh msg_zerocopy.sh psock_snd.sh
+TEST_PROGS += udpgso_bench.sh fib_rule_tests.sh msg_zerocopy.sh
 TEST_PROGS += test_vxlan_fdb_changelink.sh
 TEST_PROGS_EXTENDED := in_netns.sh
 TEST_GEN_FILES =  socket
