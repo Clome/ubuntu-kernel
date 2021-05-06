@@ -799,26 +799,6 @@ static bool intel_psr2_config_valid(struct intel_dp *intel_dp,
 		return false;
 	}
 
-	/*
-	 * Symbolic steppings that do not match the hardware. These are valid both as gt
-	 * and display steppings as symbolic names.
-	 */
-	enum intel_step {
-		STEP_NONE = 0,
-		STEP_A0,
-		STEP_A2,
-		STEP_B0,
-		STEP_B1,
-		STEP_C0,
-		STEP_D0,
-	};
-
-	/* Wa_2209313811 */
-	if (IS_TGL_DISP_REVID(dev_priv, STEP_A0, STEP_B1)) {
-		drm_dbg_kms(&dev_priv->drm, "PSR2 is not supported this Display stepping\n");
-		return false;
-	}
-
 	tgl_dc3co_exitline_compute_config(intel_dp, crtc_state);
 	return true;
 }
